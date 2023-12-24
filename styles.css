@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.date {
+  background-color: #87CEEB;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: #fff; /* Texto blanco para contrastar con el fondo celeste */
+}
+
+.clock {
+  font-size: 3em;
+}
+
+.time {
+  font-weight: bold;
+  color: #333; /* Color de texto oscuro */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto suave */
+}
